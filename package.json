@@ -1,0 +1,24 @@
+{
+  "name": "digimon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "forever -c \"nodemon --exitcrash -L \" index.js",
+    "seed": "node database/seeds.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "forever": "^0.15.3",
+    "nodemon": "^1.18.8"
+  },
+  "dependencies": {
+    "celebrate": "^9.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15",
+    "morgan": "^1.9.1"
+  }
+}
