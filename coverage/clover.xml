@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1544568090599" clover="3.2.0">
-  <project timestamp="1544568090599" name="All files">
+<coverage generated="1544568380354" clover="3.2.0">
+  <project timestamp="1544568380354" name="All files">
     <metrics statements="49" coveredstatements="31" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="1" elements="58" coveredelements="32" complexity="0" loc="49" ncloc="49" packages="5" files="5" classes="5">
       <package name="digimon">
         <metrics statements="12" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>

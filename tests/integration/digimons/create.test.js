@@ -21,8 +21,8 @@ afterAll(async () => {
   mongoose.connection.close();
 });
 
-describe("The user creates a new author", () => {
-  test("POST /authors with a valid req body and check redirect", async () => {
+describe("The user creates a new digimon", () => {
+  test("POST /digimons with a valid req body and check redirect", async () => {
     const DigimonCount = await DigimonModel.count();
     const response = await supertest(app)
       .post("/authors")
@@ -55,7 +55,7 @@ describe("The user creates a new author", () => {
   });
 });
 
-describe("The index page lists all of the products", () => {
+describe("The index page lists all of the digimon", () => {
   test("GET /digimons with a valid req body and check render", async () => {
     const response = await supertest(app).get("/digimon");
   });
